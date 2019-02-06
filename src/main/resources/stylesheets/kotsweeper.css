@@ -1,0 +1,56 @@
+.root{
+    /*-fx-font-size: 10pt;*/
+    /*-fx-font-family: "Courier New";*/
+    /*-fx-base: rgb(132, 145, 47);*/
+    /*-fx-background: rgb(225, 228, 203);*/
+}
+
+.text-field .tooltip {
+    -fx-font-size: 8pt;
+    /*-fx-font-family: "Courier New";*/
+}
+
+.top-hbox {
+    -fx-padding: 15.0 12.0 15.0 12.0;
+    -fx-spacing: 100.0;
+    -fx-alignment: center;
+    -fx-background-color: #336699;
+}
+
+.info-text-field {
+    -fx-font: 20px "Times New Roman";
+    -fx-pref-width: 60.0;
+    -fx-background-color: #313131;
+    -fx-text-inner-color: #ff0404;
+}
+
+#smiley-button {
+    -fx-pref-width: 50.0;
+    -fx-pref-height: 50.0;
+}
+
+/* the main gridPane that displays the mines/counts */
+#main-grid {
+    -fx-hgap: 1.0;
+    -fx-vgap: 1.0;
+    -fx-padding: 5.0 5.0 5.0 5.0;
+    -fx-alignment: center;
+    -fx-grid-lines-visible: true;
+}
+
+/* the styles for individual squares on the main grid  BEGIN*/
+.stack-pane-rectangle {
+    -fx-fill: linear-gradient(from 0% 0% to 100% 100%, #D6D6D6 0%, #BEBEBE 100%);
+    -fx-stroke: #FAF1F7;
+    -fx-arc-height: 3.5;
+    -fx-arc-width: 3.5;
+
+}
+.stack-pane-text {
+    -fx-font: normal bold 12pt "monospaced";
+    -fx-alignment: center;
+}
+.stack-pane {
+    -fx-alignment: center;
+}
+/* the styles for individual squares on the main grid  END*/
