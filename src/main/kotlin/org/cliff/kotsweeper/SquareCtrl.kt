@@ -21,6 +21,7 @@ class SquareCtrl(val kSweeper: KSweeper, val row:Int, val col:Int ) {
     val stackPane:StackPane = build()
     val rect:Rectangle = stackPane.children[0] as Rectangle
     val text:Text = stackPane.children[1] as Text
+
     /**
      * Construct a StackPane. The squares of the game's grid are constructed
      * out of StackPanes with a Rectangle and a Text control as its children

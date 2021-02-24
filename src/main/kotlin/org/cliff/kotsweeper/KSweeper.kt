@@ -10,7 +10,7 @@ import javafx.stage.Stage
 
 
 /**
- * THis is the main JavaFX gui launching point as well as the main Controller for the various GUI elements. Other
+ * This is the main JavaFX gui launching point as well as the main Controller for the various GUI elements. Other
  * controllers will call functions on this controller to interact with the game's model
  * User: Cliff
  * Time: 4:05 PM
